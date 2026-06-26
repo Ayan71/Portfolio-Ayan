@@ -170,6 +170,15 @@
         );
         pointer-events: none;
       }
+   .projects-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 24px;
+    justify-content: center;
+    align-items: stretch;
+}
 
       .hero-label {
         font-family: var(--font-mono);
@@ -1048,92 +1057,111 @@
     </section>
 
     <!-- Projects -->
-    <section id="projects">
-      <div class="section-header reveal">
-        <span class="section-num">03</span>
-        <h2 class="section-title">Projects</h2>
-        <div class="section-line"></div>
-      </div>
+  <div class="projects-grid reveal" id="projects">
+  <!-- Project 01 -->
+  <a href="https://www.qremix.org/" target="_blank" class="project-card">
+    <span class="project-arrow">↗</span>
+    <p class="project-num">01</p>
+    <p class="project-name">Qremix IDE</p>
+    <p class="project-desc">
+      Full-stack web IDE for Solidity smart contract development with AI-powered
+      coding assistance, real-time terminal, IndexedDB storage, authentication,
+      and seamless browser-based development experience.
+    </p>
+    <div class="project-tags">
+      <span class="project-tag">React.js</span>
+      <span class="project-tag">Node.js</span>
+      <span class="project-tag">Express.js</span>
+      <span class="project-tag">MongoDB</span>
+      <span class="project-tag">REST API</span>
+      <span class="project-tag">JWT</span>
+      <span class="project-tag">IndexedDB</span>
+      <span class="project-tag">Responsive UI</span>
+    </div>
+  </a>
 
-      <div class="projects-grid reveal">
-        <a href="https://www.qremix.org/" class="project-card">
-          <span class="project-arrow">↗</span>
-          <p class="project-num">01</p>
-          <p class="project-name">Qremix IDE</p>
-          <p class="project-desc">
-            Full-stack web IDE for Solidity smart contract development. Features
-            AI-powered frontend, IndexedDB for local persistence, real-time
-            terminal feedback, and multi-language support directly in the
-            browser.
-          </p>
-          <div class="project-tags">
-   
+  <!-- Project 02 -->
+  <a href="https://realhealthcareayurveda.com/" target="_blank" class="project-card">
+    <span class="project-arrow">↗</span>
+    <p class="project-num">02</p>
+    <p class="project-name">Real Health Care Ayurveda</p>
+    <p class="project-desc">
+      Modern healthcare website for an Ayurveda clinic featuring service
+      information, responsive design, appointment inquiry, and an optimized user
+      experience for patients.
+    </p>
+    <div class="project-tags">
+      <span class="project-tag">React.js</span>
+      <span class="project-tag">Node.js</span>
+      <span class="project-tag">Express.js</span>
+      <span class="project-tag">MongoDB</span>
+      <span class="project-tag">Responsive Design</span>
+      <span class="project-tag">REST API</span>
+    </div>
+  </a>
 
-  <span class="project-tag">React.js</span>
-  <span class="project-tag">Node.js</span>
-  <span class="project-tag">REST API</span>
-  <span class="project-tag">JWT Authentication</span>
-  <span class="project-tag">State Management</span>
-  <span class="project-tag">Responsive UI</span>
-    <span class="project-tag">IndexedDB</span>
-              
-           <span class="project-tag">MongoDB</span>
-  <span class="project-tag">Express.js</span>
-          </div>
-        </a>
+  <!-- Project 03 -->
+  <a href="https://jivyara.com/" target="_blank" class="project-card">
+    <span class="project-arrow">↗</span>
+    <p class="project-num">03</p>
+    <p class="project-name">Jivyara</p>
+    <p class="project-desc">
+      Full-stack business website designed to showcase products and services with
+      a responsive interface, secure backend, dynamic content management, and
+      optimized performance.
+    </p>
+    <div class="project-tags">
+      <span class="project-tag">React.js</span>
+      <span class="project-tag">Node.js</span>
+      <span class="project-tag">Express.js</span>
+      <span class="project-tag">MongoDB</span>
+      <span class="project-tag">REST API</span>
+      <span class="project-tag">Responsive UI</span>
+    </div>
+  </a>
 
-        <a href="https://chromewebstore.google.com/detail/qsafe-wallet/opnnmgopaggjpapnoknbphfpjfadbddc?pli=1" class="project-card">
-          <span class="project-arrow">↗</span>
-          <p class="project-num">02</p>
-          <p class="project-name">QSafe Wallet</p>
-          <p class="project-desc">
-            Frontend for a multichain quantum-secure crypto wallet by Quranium.
-            Asset management across Quranium, Bitcoin, Ethereum, and EVM chains
-            with DApp connectivity and quantum-safe integration.
-          </p>
-          <div class="project-tags">
-            <span class="project-tag">Web3</span>
-            <span class="project-tag">Multichain</span>
-            <span class="project-tag">React</span>
-            <span class="project-tag">Nextjs</span>
-            <span class="project-tag">Quantum-safe</span>
-          </div>
-        </a>
+  <!-- Project 04 -->
+  <a href="https://smartstockserp.com/" target="_blank" class="project-card">
+    <span class="project-arrow">↗</span>
+    <p class="project-num">04</p>
+    <p class="project-name">Smart Stock ERP</p>
+    <p class="project-desc">
+      Enterprise inventory and stock management ERP system featuring product
+      management, billing, reporting, user authentication, and business
+      operations automation.
+    </p>
+    <div class="project-tags">
+      <span class="project-tag">React.js</span>
+      <span class="project-tag">Node.js</span>
+      <span class="project-tag">Express.js</span>
+      <span class="project-tag">MongoDB</span>
+      <span class="project-tag">ERP</span>
+      <span class="project-tag">Inventory</span>
+      <span class="project-tag">JWT</span>
+    </div>
+  </a>
 
-        <a href="https://faucet.quranium.org/" class="project-card">
-          <span class="project-arrow">↗</span>
-          <p class="project-num">03</p>
-          <p class="project-name">Faucet</p>
-          <p class="project-desc">
-            Quranium Testnet faucet allowing users to claim test QRN and gas
-            tokens every 24 hours. Includes verification features for accurate
-            submissions and abuse prevention.
-          </p>
-          <div class="project-tags">
-          <span class="project-tag">Express.js</span>
-<span class="project-tag">React.js</span>
-<span class="project-tag">Node.js</span>
-          </div>
-        </a>
-
-        <a href="#" class="project-card">
-          <span class="project-arrow">↗</span>
-          <p class="project-num">04</p>
-          <p class="project-name">Dokstream</p>
-          <p class="project-desc">
-            Responsive web app for patient health data management with secure
-            onboarding. End-to-end Cypress testing covering 90% of critical
-            workflows, reducing post-deployment issues by 60%.
-          </p>
-          <div class="project-tags">
-            <span class="project-tag">React</span>
-            <span class="project-tag">Cypress</span>
-            <span class="project-tag">HealthTech</span>
-            <span class="project-tag">E2E Testing</span>
-          </div>
-        </a>
-      </div>
-    </section>
+  <!-- Project 05 -->
+  <a href="https://smarttablesystem.com/" target="_blank" class="project-card">
+    <span class="project-arrow">↗</span>
+    <p class="project-num">05</p>
+    <p class="project-name">Smart Table System</p>
+    <p class="project-desc">
+      Restaurant table management platform enabling digital table reservations,
+      order management, customer interaction, and streamlined restaurant
+      operations through an intuitive interface.
+    </p>
+    <div class="project-tags">
+      <span class="project-tag">React.js</span>
+      <span class="project-tag">Node.js</span>
+      <span class="project-tag">Express.js</span>
+      <span class="project-tag">MongoDB</span>
+      <span class="project-tag">REST API</span>
+      <span class="project-tag">Restaurant Tech</span>
+      <span class="project-tag">Responsive UI</span>
+    </div>
+  </a>
+</div>
 
     <!-- Education -->
     <section id="education">
